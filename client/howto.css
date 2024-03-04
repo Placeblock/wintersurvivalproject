@@ -1,0 +1,23 @@
+* {
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.back-button {
+    margin-bottom: 50px;
+    display: inline-block;
+}

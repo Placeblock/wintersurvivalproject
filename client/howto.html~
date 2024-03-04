@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Das Minecraft Projekt im Winter">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://placeblock.undo.it/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sandstorm">
+    <meta property="og:description" content="Das Minecraft Projekt im Winter">
+    <meta property="og:image" content="https://placeblock.undo.it/images/urlbackground.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="">
+    <meta property="twitter:url" content="https://placeblock.undo.it/">
+    <meta name="twitter:title" content="Sandstorm">
+    <meta name="twitter:description" content="Das Minecraft Projekt im Winter">
+    <meta name="twitter:image" content="https://placeblock.undo.it/images/urlbackground.png">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+      
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="howto.css">
+    <link href="js/aos.css" rel="stylesheet">
+    <title>Snowstorm | How To</title>
+</head>
+<body>
+    <a href="/" class="back-button button">Zurück</a>
+    <p style="text-decoration: underline;">Welche Mods darf ich benutzen?</p>    
+    <p style="color: red;">Bevor du Mods installierst solltest du Iris Shader Mod runterladen. Folge dazu dem Tutorial etwas weiter unten!</p>
+    <p>Erlaubt sind folgende Mods:</p>
+    <a class="button" style="border-color: greenyellow;" href="mods.zip">ALLE HERUNTERLADEN (ZIP)</a>
+    <ul>
+        <li><a href="https://github.com/plasmoapp/plasmo-voice/releases/download/1.2.8-client/plasmovoice-fabric-1.18-1.2.8.jar">Proximity Voice Chat (Empfohlen) (Download)</a></li>
+        <ul>
+            <p>Benötigt:</p>
+            <li><a href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-fabric/files" target="_blank">Sound Physics (Download)</a></li>
+        </ul>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/sound-physics-fabric/files" target="_blank">Sound Physics (Download)</a></li>
+        <ul>
+            <p>Benötigt:</p>
+            <li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config/files" target="_blank">Cloth Config API (Download)</a></li>
+            <li><a href="https://www.curseforge.com/minecraft/mc-mods/modmenu/files" target="_blank">Mod Menu (Download)</a></li>
+        </ul>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/mouse-wheelie/files" target="_blank">Mousewheelie (Download)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/modmenu/files" target="_blank">Mod Menu (Download)</a></li>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/light-overlay/files" target="_blank">Light Overlay (Download)</a></li>
+        <ul>
+            <p>Benötigt:</p>
+            <li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-fabric/files" target="_blank">Architectury API (Download)</a></li>
+            <li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config/files" target="_blank">Cloth Config API (Download)</a></li>
+            <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api/files" target="_blank">Fabric API (Download)</a></li>
+        </ul>
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/presence-footsteps/files" target="_blank">Presence Footsteps (Download)</a></li>
+        <li><a href="https://cdn.modrinth.com/data/yBW8D80W/versions/2.1.0+1.17/lambdynamiclights-2.1.0+1.17.jar">Dynamic Lights</a></li>
+    </ul>
+    <p class="h1">Tutorial</p>
+    <a href="https://irisshaders.net/download" target="_blank">Iris Installer (Download)</a>
+    <p>Als erstes führst du den Iris Installer durch einen Doppelklick aus.</p>
+    <p>Sollte dies nicht funktionieren probiere Folgendes:</p>
+    <ul>
+        <li>Öffne die Kommandozeile indem du in der Windows-Suchzeile "cmd" eingibst.</li>
+        <li>Jetzt navigierst du in dein Download Verzeichnis mit "cd Downloads"</li>
+        <li>Nun führst du die Jar Datei aus in dem du folgendes eingibst: java -jar [datei]</li>
+        <li>[Datei] Ersetzt du durch den runtergeladenen Installer. Dies schaffst du in dem du die</li>
+        <li>ersten Buchstaben der Datei angibst und dann Tab drückst um automatisch zu vervollständigen</li>
+    </ul>
+    <br>
+    <p>Dieses Fenster sollte sich öffnen:</p>
+    <img src="images/installer.png" alt="">
+    <p>Stelle alles so ein wie im oberen Bild gezeigt und drücke unten auf "Install"</p>
+    <br>
+    <p>Nun sollte sich, insofern noch nicht vorhanden, ein mods ordner in deinem Minecraft verzeichnis erstellt haben.
+    Diesen findest du, indem du in der Suchzeile "%appdata%" eingibst, und dann in den .minecraft ordner navigierst.
+    Dort sollten sich nun die Dateien "sodium-fabric-..." und
+"iris-mc1.18.1..." befinden.
+    Jetzt legst du die .jar Dateien der mods in den mods ordner im .minecraft ordner. Wenn du die ZIP Datei mit allen
+    Dateien herunter geladen hast, musst du diese erst noch entpacken (Rechtsklick -> Alle Extrahieren)</p>
+    <br>
+    <p>Jetzt startest du in deinem Minecraft Launcher die Version "Fabric Loader 1.18.1"</p>
+    <p>Solltest du Probleme haben wennde dich einfach an mich (Placeblock#4057)</p>
+    <br>
+    <p>Happy Playing!</p>
+    <br>
+    <script src="js/app.js"></script>
+</body>
+</html>
